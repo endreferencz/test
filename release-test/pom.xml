@@ -3,7 +3,7 @@
 
   <groupId>com.epam.training</groupId>
   <artifactId>release-test</artifactId>
-  <version>1.12-SNAPSHOT</version>
+  <version>1.12</version>
   <packaging>jar</packaging>
 
   <name>release-test</name>
@@ -26,7 +26,7 @@
     <connection>scm:git:ssh:git@github.com:endreferencz/test.git</connection>
     <developerConnection>scm:git:ssh:@github.com:endreferencz/test.git</developerConnection>
     <url>https://github.com/endreferencz/test</url>
-    <tag>HEAD</tag>
+    <tag>release-test-1.12</tag>
   </scm>
   
 <build>
