@@ -3,7 +3,7 @@
 
   <groupId>com.epam.training</groupId>
   <artifactId>release-test</artifactId>
-  <version>1.1-SNAPSHOT</version>
+  <version>1.4-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>release-test</name>
@@ -20,11 +20,6 @@
         <url>http://ecsc001009f9.epam.com:8081/artifactory/libs-release-local</url>
     </repository>
 
-    <snapshotRepository>
-        <id>ecsc001009f9.epam.com</id>
-        <name>ecsc001009f9.epam.com-snapshots</name>
-        <url>http://ecsc001009f9.epam.com:8081/artifactory/libs-snapshot-local</url>
-    </snapshotRepository>
   </distributionManagement>
 
   <scm>
